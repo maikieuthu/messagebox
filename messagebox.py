@@ -8,7 +8,7 @@ def Exit_Application():
     else:
         messagebox.showinfo(title="Return",message=" You will now return to the application screen")
 window=Tk()
-window.geometry("100x100")
+window.geometry("500x500")
 r_button =Button(window,text =" Exit Application", command =Exit_Application, bg ="red",
                  fg="white")
 canvas1 = Canvas(window, width = 100, height = 100)
